@@ -67,7 +67,9 @@ Pod::Spec.new do |s|
                               'include/**/RLMResults_Private.h',
                               'include/**/RLMSchema_Private.h',
                               'include/**/RLMSyncConfiguration_Private.h',
-                              'include/**/RLMSyncUtil_Private.h'
+                              'include/**/RLMSyncUtil_Private.h',
+                              'include/**/RLMMigration_Private.h',
+                              'include/**/RLMSyncManager_Private.h'
 
   source_files              = 'Realm/*.{m,mm}',
                               'Realm/ObjectStore/src/*.cpp',
